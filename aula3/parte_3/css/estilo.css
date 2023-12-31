@@ -1,0 +1,20 @@
+.primeiraClasse{
+    background: lightblue ;
+    border-style: dashed;
+    border-color: rgb(31, 9, 233);
+    font-size: 30px;
+}
+
+#primeiroID{
+    background: lightsalmon;
+    border-style: dotted;
+    border-color:black;
+    font-size: 45px;
+}
+
+p.segundaClasse{
+    background: rgb(185, 19, 24) ;
+    border-style: double;
+    border-color: rgb(229, 233, 23);
+    font-size: 40px;
+}

@@ -1,0 +1,31 @@
+body{
+    background-color: lightgray;
+}
+.conteudo{
+    background: darkgrey;
+    font-size: 24px;
+    width: 900px;
+    margin:30px auto; /* auto = serve para centralizar a margem direita e esquerda.*/
+    padding: 8px;
+}
+h1{
+    position: static;
+
+}
+p{
+    width: 300px;
+    position: static;
+}
+.relativo{
+    border: 2px dotted blue;
+    position: relative;
+    top:-170px;
+    left: 590px;
+}
+/*
+O posicionamento relativo perminte que seu elemento seja afastado(Deslocado) da sua posição orginal de renderização.*/
+.absoluto{
+    border: 2px dotted blue;
+    position: absolute;
+    bottom: -175px;
+}

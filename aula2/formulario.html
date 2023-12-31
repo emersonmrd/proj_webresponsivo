@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro formulário</title>
+</head>
+<body>
+    <h2>Cadastre-se</h2>
+    <hr>
+    <form>
+        E-mail: <br>
+        <input type="email" required name="email">
+        <br><br>
+        Senha:<br>
+        <input type="password" required name="senha">
+
+        <br><br>
+        Selecione sua cor favorita:<br>
+        <input type="radio" name="opcs" value="Azul">Azul<br>
+        <input type="radio" name="opcs" value="Rosa">Rosa<br>
+        <input type="radio" name="opcs" value="Preto">Preto<br>
+        <input type="radio" name="opcs" value="Vermelho">Vermelho<br>
+        <input type="radio" name="opcs" value="Amarelo">Amarelo<br><br><br>
+        <!--Multiseleção -->
+        Selecione um ou mais interesses:<br>
+        <input type="checkbox" name="ineteresses">Andar de bike<br>
+        <input type="checkbox" name="ineteresses">Jogar bola<br>
+        <input type="checkbox" name="ineteresses">Jogar LoL<br>
+        <input type="checkbox" name="ineteresses">Jogar Valorant<br>
+        <input type="checkbox" name="ineteresses">Ler livros<br>
+        <input type="checkbox" name="ineteresses">Programar<br>
+        <br><br>
+        <!-- Caixas de seleção -->
+        Selecione seu estado:
+         <select name="estado">
+            <option value="sp">SP</option>
+            <option value="mg">MG</option>
+            <option value="rj">RJ</option>
+            <option value="es">ES</option>
+        </select><br>
+        <br>
+
+        <!-- Multilinhas -->
+        Comentários:<br>
+        <textarea></textarea><br>
+        <input type="submit" value="Cadastrar">
+
+    </form>
+</body>
+</html>

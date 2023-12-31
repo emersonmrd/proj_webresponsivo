@@ -1,0 +1,25 @@
+body{
+    background-color: lightgray;
+}
+.conteudo{
+    background: darkgrey;
+    font-size: 24px;
+    width: 900px;
+    margin:30px auto; /* auto = serve para centralizar a margem direita e esquerda.*/
+    padding: 8px;
+}
+h1{
+    position: static;
+
+}
+p{
+    width: 300px;
+    position: static;
+}
+.fixo{
+    border: 2px dotted blue;
+    position: fixed;
+    margin: 0px;
+    bottom: -90px;
+    right: 400px;
+}
